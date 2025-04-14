@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="8dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_students"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/student_item" />
+
+    <Button
+        android:id="@+id/btn_submit_attendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Attendance"
+        android:padding="12dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:elevation="2dp" />
+</LinearLayout>

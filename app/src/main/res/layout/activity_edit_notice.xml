@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5"> <!-- Light background for better visual appeal -->
+
+    <!-- Title Section -->
+    <TextView
+        android:id="@+id/tv_update_notice_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Notice"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Title and Description Fields Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/et_edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter title"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="@drawable/edit_text_bg"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/et_edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter description"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="@drawable/edit_text_bg"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+
+    <!-- File Section -->
+    <LinearLayout
+        android:id="@+id/ll_file_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tv_edit_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No file attached"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="start"
+            android:textColor="#333333"/>
+
+        <!-- Replace File Button -->
+        <Button
+            android:id="@+id/btn_replace_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replace File"
+            android:textColor="#FFFFFF"
+            android:background="#00796B"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/btn_update_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:padding="14dp"
+        android:textColor="#FFFFFF"
+        android:background="#00796B"
+        android:textSize="16sp"/>
+
+</LinearLayout>

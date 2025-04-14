@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow layer for elevation effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#30000000"/> <!-- Black with transparency for shadow -->
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+
+    <!-- Main content background with gradient -->
+    <item android:left="2dp" android:right="2dp" android:top="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <!-- Gradient background -->
+            <gradient
+                android:startColor="#4A90E2"
+                android:endColor="#357ABD"
+                android:angle="90"/>
+
+            <!-- Rounded corners -->
+            <corners android:radius="12dp"/>
+
+            <!-- Light grey border -->
+            <stroke android:width="2dp" android:color="#D3D3D3"/> <!-- Light grey border -->
+        </shape>
+    </item>
+
+</layer-list>

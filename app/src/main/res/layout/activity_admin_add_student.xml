@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".AdminAddStudent">
+
+    <TextView
+        android:id="@+id/tv_add_student_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Name Field -->
+    <EditText
+        android:id="@+id/et_student_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:inputType="textPersonName"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_add_student_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Student ID Field -->
+    <EditText
+        android:id="@+id/et_student_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Student ID"
+        android:inputType="text"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/et_student_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/et_student_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/et_student_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/et_student_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/et_student_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Add Student Button -->
+    <Button
+        android:id="@+id/btn_add_student"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/et_student_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

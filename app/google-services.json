@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "723095833768",
+    "firebase_url": "https://onlinecourses-ced20-default-rtdb.firebaseio.com",
+    "project_id": "onlinecourses-ced20",
+    "storage_bucket": "onlinecourses-ced20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723095833768:android:e0da327fd0b7c2ad84869d",
+        "android_client_info": {
+          "package_name": "com.example.m_learning_onlinecources"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723095833768-hbdtfam4cmgdv414j9pc7fro921hi56s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.m_learning_onlinecources",
+            "certificate_hash": "cc5e7965b26d48d24bca290a7152c955d2914a64"
+          }
+        },
+        {
+          "client_id": "723095833768-u26sqj9l2onessp2n6ccrhspo8k5hsfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz99FkDfM-EYtxxsEYuLdIxXTra93jhaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723095833768-u26sqj9l2onessp2n6ccrhspo8k5hsfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

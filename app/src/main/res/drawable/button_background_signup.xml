@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Color when button is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF5722"/> <!-- Deep Orange -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Color when button is enabled but not pressed -->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF9800"/> <!-- Amber -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Default color when button is neither pressed nor disabled -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFC107"/> <!-- Yellow -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+</selector>

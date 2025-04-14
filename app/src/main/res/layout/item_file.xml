@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Displays the name of the file -->
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Name"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="6dp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <!-- Displays the upload date of the file -->
+    <TextView
+        android:id="@+id/tvUploadDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uploaded on: Date"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:paddingBottom="12dp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <!-- Horizontal layout for buttons (e.g., view or manage the file) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Button to view the file -->
+        <Button
+            android:id="@+id/btnViewFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View File"
+            android:textSize="14sp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

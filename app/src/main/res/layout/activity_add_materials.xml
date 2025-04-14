@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="8dp"
+    tools:context=".AddMaterialsActivity">
+
+    <!-- Fixed Title Section -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Study Materials"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/black" />
+
+    <!-- RecyclerView to display folders -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFolders"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/item_folder" />
+
+    <!-- Floating Action Button to add folders -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_add"
+        android:contentDescription="@string/add_folder"
+        app:backgroundTint="@color/primaryColor" />
+
+</LinearLayout>

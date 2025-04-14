@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="material_dynamic_tertiary70">#6876C3</color>-->
+    <!--<color name="linear_back" >#9FF8A3</color>-->
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#f2f2f2</color>
+    <!--<color name="text_color">#333</color>-->
+    <color name="splash_background">#3498db</color>
+    <color name="light_gray">#d3d3d3</color>
+    <color name="dark_blue">#00008B</color>
+    <!--<color name="button_color">#4CAF50</color>-->
+    <color name="button_border_color">#3e8e41</color>
+    <color name="header_color">#3498db</color>
+    <color name="background_start">#81D4FA</color> <!-- Light Blue -->
+    <color name="background_end">#4CAF50</color>   <!-- Green -->
+    <color name="button_color">#00ACC1</color>     <!-- Teal -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White -->
+    <color name="dark_teal">#004D40</color>
+    <!--<color name="trans" >#00000000</color>-->
+
+    <color name="trans">#66000000</color> <!-- Semi-transparent color -->
+
+    <color name="linear_back">#FFFFFF</color>
+
+    <color name="vibrant_red">#FF5F6D</color>
+    <color name="bright_yellow">#FFC371</color>
+    <color name="sky_blue">#00C9FF</color>
+
+    <color name="gradient_start_addmin">#FF6FD8</color>  <!-- Bright Pink -->
+    <color name="gradient_center_addmin">#FFD54F</color> <!-- Vivid Yellow -->
+    <color name="gradient_end_admin">#4CAF50</color>    <!-- Bright Green -->
+
+    <color name="ripple_color">#33000000</color>
+
+
+    <color name="material_dynamic_tertiary70">#FF9E2C</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="ripple_effect">#FF6F00</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="spinner_border_color">#CCCCCC</color>
+
+    <color name="primary_Color">#3F51B5</color>
+
+
+    <!-- Primary Brand Colors -->
+    <color name="primaryColor">#6200EA</color> <!-- Purple -->
+    <color name="primaryLightColor">#BB86FC</color> <!-- Light Purple -->
+    <color name="primaryDarkColor">#3700B3</color> <!-- Dark Purple -->
+    <color name="primaryButtonColor">#03DAC5</color> <!-- Teal -->
+
+    <!-- Secondary Colors -->
+    <color name="secondaryColor">#FF5722</color> <!-- Deep Orange -->
+    <color name="secondaryLightColor">#FF8A50</color> <!-- Light Orange -->
+    <color name="secondaryDarkColor">#C41C00</color> <!-- Dark Orange -->
+
+    <!-- Background Colors -->
+    <color name="lightBackground">#F5F5F5</color> <!-- Light Gray -->
+    <color name="darkBackground">#212121</color> <!-- Dark Gray -->
+
+    <!-- Text Colors -->
+    <color name="primaryText">#333333</color> <!-- Dark Text -->
+    <color name="secondaryText">#757575</color> <!-- Medium Gray Text -->
+    <color name="whiteText">#FFFFFF</color> <!-- White Text -->
+
+    <!-- Outline/Border Colors -->
+    <color name="outlineColor">#E0E0E0</color> <!-- Light Gray Border -->
+
+    <!-- Error and Success Colors -->
+    <color name="errorColor">#D32F2F</color> <!-- Red for Errors -->
+    <color name="successColor">#388E3C</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="gray_dark">#9E9E9E</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray">#808080</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="colorAccent">#018786</color> <!-- Green for Success -->
+
+
+    <color name="layout_background">#C4CDDA</color>
+    <color name="header_background">#3E4A89</color>
+    <color name="header_text">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_text">#3E3E3E</color>
+    <color name="button_primary">#4CAF50</color>
+    <color name="button_secondary">#FFC107</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="green">#4CAF50</color>
+    <color name="cardview_color">#96C6F6</color>
+
+</resources>

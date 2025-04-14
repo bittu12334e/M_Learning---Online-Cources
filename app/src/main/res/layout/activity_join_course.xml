@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".JoinCourseActivity">
+
+    <!-- Title for the Course Section -->
+    <TextView
+        android:id="@+id/title_course_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Section"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:textColor="@color/black" />
+
+    <!-- RecyclerView for the courses -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_courses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

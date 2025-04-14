@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditRoutineActivity">
+
+    <!-- Instruction Text -->
+    <TextView
+        android:id="@+id/tvEditInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a new file to replace the current routine."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Upload Button -->
+    <Button
+        android:id="@+id/btnUploadNewFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload New Routine"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/black"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:layout_below="@id/tvEditInstructions"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

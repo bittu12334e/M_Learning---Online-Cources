@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:fadeScrollbars="false"
+    tools:context=".LoginScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_gradient"
+        >
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/you_are"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/you_are"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/layout"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <!-- Dropdown Menu (Spinner) -->
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/you_are"
+            app:layout_constraintBottom_toTopOf="@+id/sign_up"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <!-- Spinner for selecting role -->
+            <Spinner
+                android:id="@+id/role_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:padding="10dp"
+                android:entries="@array/roles_array"
+                android:background="@drawable/spinner_background"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <!-- User ID EditText -->
+            <EditText
+                android:id="@+id/et_EmailId"
+                android:layout_width="145dp"
+                android:layout_height="48dp"
+                android:hint="@string/email_id_hint"
+                android:inputType="text"
+                android:autofillHints="username"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_background"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!-- Password EditText -->
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="145dp"
+                android:layout_height="48dp"
+                android:hint="@string/password_hint"
+                android:inputType="textPassword"
+                android:autofillHints="password"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_background"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!-- Login Button -->
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background_ripple"
+                android:padding="10dp"
+                android:text="@string/login"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <!-- Footer -->
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/if_not_registered"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

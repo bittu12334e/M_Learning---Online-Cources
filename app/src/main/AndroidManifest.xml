@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.m_learning_onlinecources">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.M_LearningOnlineCources"
+        tools:targetApi="32">
+
+        <activity
+            android:name=".UpdateProfileStudent"
+            android:exported="false" />
+        <activity
+            android:name=".FilesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResourseViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadVideosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CourseVideosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JoinCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FolderFilesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddMaterialsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditRoutineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewRoutineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewNoticesActivity"
+            android:exported="false" />
+        <activity android:name=".VideoListActivity" />
+        <activity
+            android:name=".AddNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification_bell" />
+
+        <activity
+            android:name=".AdminViewStudents"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddStudent"
+            android:exported="false" />
+        <activity
+            android:name=".AdminViewTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddTeacher"
+            android:exported="false"
+            android:theme="@style/Theme.M_LearningOnlineCources" />
+        <activity
+            android:name=".UpdateProfileTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".EditCourseDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditCoursesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".SignupScreen"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

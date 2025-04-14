@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    tools:context=".AdminDashboard">
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#9DA9E6">
+
+
+
+        <LinearLayout
+            android:id="@+id/header_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:contentDescription="@string/app_logo"
+                android:src="@drawable/admin_dash" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_dashboard"
+                android:textColor="@color/header_text"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Main Content -->
+    <ScrollView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Teacher Management Section -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_teachers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:backgroundTint="@color/card_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tv_teachers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/manage_teachers"
+                        android:textColor="@color/card_text"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center" />
+
+                    <Button
+                        android:id="@+id/btn_view_teachers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:backgroundTint="@color/button_primary"
+                        android:text="@string/view_teachers"
+                        android:textColor="@color/button_text"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btn_add_teacher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="@color/button_secondary"
+                        android:text="@string/add_teacher"
+                        android:textColor="@color/button_text"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Student Management Section -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_students"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:backgroundTint="@color/card_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tv_students"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/manage_students"
+                        android:textColor="@color/card_text"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center" />
+
+                    <Button
+                        android:id="@+id/btn_view_students"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:backgroundTint="@color/button_primary"
+                        android:text="@string/view_students"
+                        android:textColor="@color/button_text"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Additional Buttons
+            <Button
+                android:id="@+id/btn_view_teacher_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/button_primary"
+                android:text="@string/view_teacher_activity"
+                android:textColor="@color/button_text"
+                android:textSize="16sp" />-->
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

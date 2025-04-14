@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white"
+    android:scrollbars="none"
+    android:fadeScrollbars="false"
+    tools:context=".UploadVideosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <!-- Playlist Title -->
+        <TextView
+            android:id="@+id/textViewPlaylistTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Playlist Title: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <!-- Course Title -->
+        <TextView
+            android:id="@+id/textViewCourseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Course Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/teal_700"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:fontFamily="@font/roboto_bold" />
+    </LinearLayout>
+
+
+        <!-- Add Video Button -->
+        <Button
+            android:id="@+id/buttonAddVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Video"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:elevation="4dp"
+            android:paddingVertical="10dp" />
+
+        <!-- RecyclerView for showing uploaded videos -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewVideos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            android:clipToPadding="false"
+            android:paddingTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/recycler_view_background" />
+
+        <!-- Upload All Videos Button -->
+        <Button
+            android:id="@+id/buttonUploadAllVideos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload All Videos"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_bold"
+            android:elevation="4dp"
+            android:paddingVertical="10dp" />
+
+    </LinearLayout>
+</ScrollView>

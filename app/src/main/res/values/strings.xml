@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">M_Learning - Online Cources</string>
+    <string name="version">Version 1.0</string>
+
+    <string name="you_are">You Are...</string>
+    <string name="admin">Admin</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="if_not_registered">  Not Registered Yet?\nSign Up For Students (Only)</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="click_here">Click Here</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="confirm_password">Confirm your password</string>
+    <string name="already_have_account">Already have an account? Log in</string>
+
+    <!-- Header Strings -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+
+    <!-- Manage Teachers Strings -->
+    <string name="manage_teachers">Manage Teachers</string>
+    <string name="view_teachers">View Teachers</string>
+    <string name="add_teacher">Add Teacher</string>
+
+    <!-- Manage Students Strings -->
+    <string name="manage_students">Manage Students</string>
+    <string name="view_students">View Students</string>
+    <string name="add_student">Add Students</string>
+
+    <!-- Manage Subjects Strings -->
+    <string name="manage_subjects">Manage Subjects</string>
+    <string name="view_subjects">View Subjects</string>
+    <string name="add_subject">Add Subject</string>
+
+    <!-- Manage Notices Strings -->
+    <string name="manage_notices">Manage Notices</string>
+    <string name="view_notices">View Notices</string>
+    <string name="add_notice">Add Notice</string>
+
+    <string name="teacher_dashboard">Teacher Dashboard</string>
+    <string name="add_course">Add Course</string>
+    <string name="upload_routine">Upload Routine</string>
+    <string name="edit_courses">Edit Courses</string>
+
+    <string name="view_courses">View Courses</string>
+    <string name="student_dashboard">Student Dashboard</string>
+
+    <string name="join_course">Join Course</string>
+    <string name="view_routine">View Routine</string>
+    <string name="view_grades">View Grades</string>
+    <string name="view_attendance">View Attendance</string>
+
+
+    <string name="header_background">Header Background Image</string>
+    <string name="app_logo">App Logo</string>
+    <string name="view">View</string>
+    <string name="add">Add</string>
+    <string name="give_attendance">Give Attendance</string>
+    <string name="access_study_resources">Access Study Resources</string>
+    <string name="chat_with_counselor">Chat with Counselor\n</string>
+    <string name="notifications">Notifications</string>
+
+
+    <string name="enter_phone">Enter your phone number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="enter_dob">Enter your date of birth</string>
+    <string name="upload_picture">Upload Profile Picture</string>
+    <string name="accept_terms">I accept the terms and conditions</string>
+    <string name="signup_with_google">Sign up with Google</string>
+    <string name="signup_with_facebook">Sign up with Facebook</string>
+    <string name="header_color">Header Color</string>
+    <string name="text_color">Text Color</string>
+    <string name="border_color">Border Color</string>
+    <string name="logo_description">Logo</string>
+    <string name="verify">Verify</string>
+    <string name="enter_otp">enter otp</string>
+    <string name="verify_phone_number">verify phone number\n</string>
+    <string name="course_name">Course Name\n\n</string>
+    <string name="course_description">Course Description</string>
+    <string name="video_url">Video Url</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="save_course">Save Course</string>
+    <string name="edit_course_details">Edit Course Details</string>
+    <string name="course_title">Course Title</string>
+    <string name="update_course">Update Course</string>
+    <string name="video_name">Video Name</string>
+    <string name="update_profile">Update Profile</string>
+
+    <!-- Spinner Dropdown Items -->
+    <string-array name="roles_array">
+        <item>Student</item>
+        <item>Teacher</item>
+        <item>Admin</item>
+    </string-array>
+    <string name="login">Login</string>
+    <string name="email_id_hint">Email ID</string>
+    <string name="password_hint">Password</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="class_section">Class_Section</string>
+    <string name="select_class">Select Class</string>
+    <string name="select_section">Select Section</string>
+    <string name="update">Update</string>
+    <string name="address">Address</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="section">Section</string>
+    <string name="classs">Class</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</string>
+    <string name="gender">Gender :</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="verifytheemail">Verify the Email</string>
+    <string name="enter_class">Enter Class</string>
+    <string name="enter_section">Enter Section</string>
+    <string name="designation">Designation</string>
+    <string name="add_materials">Add Materials</string>
+    <string name="folder_icon">Folder Icon</string>
+    <string name="navigate_to_folder">Navigate to Folder</string>
+    <string name="add_folder">Add Folder</string>
+    <string name="add_file">Add File</string>
+    <string name="view_teacher_activity">View Teacher Activity</string>
+    <string name="enter_roll">Enter Roll</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="video_selected">Video selected successfully!</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="update_video">Update Video</string>
+
+</resources>

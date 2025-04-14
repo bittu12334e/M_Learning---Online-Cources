@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color for the card (light teal) -->
+    <solid android:color="#B2DFDB" />
+
+    <!-- Rounded corners -->
+    <corners android:radius="16dp" />
+
+    <!-- Optional padding inside the card -->
+    <padding android:left="8dp" android:right="8dp" android:top="8dp" android:bottom="8dp" />
+
+    <!-- Border with darker teal color -->
+    <stroke android:width="2dp" android:color="#00796B" />
+
+    <!-- Optional shadow effect for older Android versions (for CardView this can be handled by elevation) -->
+    <gradient
+        android:angle="270"
+        android:startColor="#E0F2F1"
+        android:endColor="#80CBC4" />
+</shape>
